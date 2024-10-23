@@ -96,18 +96,18 @@ public class TicTacToe {
             playerMove();
             aiMove();
 
-            if(checkWin(X)) {
+            if (checkWin(X)) {
                 printBoard();
                 System.out.println("Игрок выиграл!");
                 break;
             }
 
-            if(checkWin(O)) {
+            if (checkWin(O)) {
                 printBoard();
                 System.out.println("ИИ выиграл!");
             }
 
-            if(isBoardFull()) {
+            if (isBoardFull()) {
                 printBoard();
                 System.out.println("Ничья!");
                 break;
