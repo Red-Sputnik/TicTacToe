@@ -105,6 +105,7 @@ public class TicTacToe {
             if (checkWin(O)) {
                 printBoard();
                 System.out.println("ИИ выиграл!");
+                break;
             }
 
             if (isBoardFull()) {
